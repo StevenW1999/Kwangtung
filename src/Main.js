@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 class Main extends Component {
   render() {
     return (
+      <div className="bg">
       <HashRouter>
         <div>
           <h1>Menu balk</h1>
@@ -26,6 +27,7 @@ class Main extends Component {
           </div>
         </div>
         </HashRouter>
+        </div>
     );
   }
 }

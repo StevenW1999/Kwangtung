@@ -1,7 +1,7 @@
 body {
     background-color: #FFFFFF;
     padding: 20px;
-    margin: 0;
+
   }
   h1, h2, p, ul, li {
     font-family: sans-serif;
@@ -36,4 +36,21 @@ body {
 
   .active {
     background-color: #0099FF;
+  }
+
+  body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("../images/calvin.jpg");
+  
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
