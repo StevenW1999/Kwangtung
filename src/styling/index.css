@@ -15,3 +15,10 @@ html {
     margin-left: -8px;
     position: absolute;
 }
+
+.banner{
+  margin-top: -10%;
+  font-size: 5vw;
+  color: white;
+  text-align: center;
+}

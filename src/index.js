@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Main from "./Main";
-import "./styling/index.css"
+import "./styling/index.css";
  
 ReactDOM.render(
-  <Main/>, 
+  <Main/>,
   document.getElementById("root")
 );
