@@ -1,24 +1,50 @@
-html { 
+html,body { 
   background: url("../images/lantern.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.home{
-    width: 100%;
-    background-color:  rgb(255, 255, 255);
-    height: 100%;
-    top: 30%;
-    margin-top: -50px;
-    margin-left: -8px;
-    position: absolute;
+  width: 99%;
+  height: 100%;
 }
 
 .banner{
-  margin-top: -10%;
+  margin-top: 20px;
   font-size: 5vw;
   color: white;
   text-align: center;
+} 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 100px 0px;
+  grid-template-areas: "Home Home Home Home" "Menu Menu Menu Menu" "Contact Contact Contact Contact";
+  background-color:white;
+  height: auto;
+  width: 80%;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 30px;
+  align-items: flex-start;
+  
+}
+
+.Home { 
+  grid-area: Home; 
+}
+
+.Menu { 
+  grid-area: Menu; 
+  height: 33%;
+}
+
+.Contact { 
+  grid-area: Contact; 
+  background-color: yellow;
+  height: 33%;
 }

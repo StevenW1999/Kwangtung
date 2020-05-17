@@ -1,0 +1,24 @@
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 100px;
+    grid-template-areas: "locatie adres contact";
+    width: 100%;
+    height: 100%;
+  }
+  
+  .locatie { 
+      grid-area: locatie; 
+      background-color: violet;
+}
+  
+  .adres { 
+      grid-area: adres; 
+      background-color: tomato;
+}
+  
+  .contact { 
+      grid-area: contact; 
+      background-color:silver;
+}

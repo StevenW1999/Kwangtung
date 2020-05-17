@@ -1,31 +1,29 @@
-.container {
-    width: 100%;
-    height: 400px;
-    background: white;
-    margin-top: 200px;
-  }
-  
-  .afhaal {
-    width: 650px;
-    height: 400px;
-    background: red;
-    float: left;
-    color: white;
-    margin-left: 10%;
+.menu-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 100px;
+  grid-template-areas: "afhaal restaurant";
+  width: 100%;
+  height: 100%;
+}
 
-  }
-  
-  .restaurant {
-    margin: auto;
-    width: 650px;
-    height: 400px;
-    background-image: url("../images/restaurant.jpg");
-    background-size: 100% 100%;
-    color: white;
-    margin-left: 55%;
-  }
+.afhaal { 
+  grid-area: afhaal; 
+ background-image: url("../images/restaurant.jpg");
+ background-size: 100% 100%;
+ color: white;
+ text-align: center;
+ padding-top: 250px;
+ font-size: xx-large;
+}
 
-  div{
-    text-align: center;
-    vertical-align: middle;
-  }
+.restaurant { 
+  grid-area: restaurant;
+  color: white;
+  background-image: url("../images/hall.jpg");
+  background-size: 100% 100%;
+  text-align: center;
+  padding-top: 250px;
+  font-size: xx-large;
+}

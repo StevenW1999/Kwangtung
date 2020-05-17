@@ -1,13 +1,14 @@
 import React, { Component } from "react";
- 
+import "../styling/contact.css";
+
 class Contact extends Component {
   render() {
     return (
-      <div>
-        <h2>CONTACT INFO</h2>
-        <p>adress
-        </p>
-      </div>
+        <div className="contact-container">
+          <div className="locatie">locatie</div>
+          <div className="adres">adres</div>
+          <div className="contact">contact</div>
+        </div>
     );
   }
 }

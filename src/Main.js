@@ -12,13 +12,13 @@ class Main extends Component {
   render() {
     return (
         <div>
-          <div className="home">
-            <div className="banner">
-              Restaurant Kwangtung
-            </div>
-            <Menu/>
-          </div>
-        </div>
+        <div className="banner">Restaurant Kwangtung</div>
+        <div class="grid-container">
+          <div class="Home"><Home/></div>
+          <div class="Menu"><Menu/></div>
+          <div class="Contact"><Contact/></div>
+      </div>
+      </div>
     );
   }
 }

@@ -4,9 +4,9 @@ import "../styling/menu.css";
 class Menu extends Component {
   render() {
     return (
-      <div className ="container">
+      <div className ="menu-container">
         <div className="afhaal">
-          Afhaal
+          <div className="afhaal-text">Afhaal</div>
         </div>
         <div className="restaurant">
           Restaurant
