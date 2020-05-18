@@ -38,6 +38,7 @@ class Home extends Component {
           Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolor
 
           </p>
+          <div className="entry-content"></div>
         </div>
       );
     }

@@ -10,20 +10,20 @@ html,body {
 
 .banner{
   margin-top: 20px;
-  font-size: 5vw;
+  font-size: xx-large;
   color: white;
   text-align: center;
 } 
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1000px 800px 500px;
   gap: 100px 0px;
-  grid-template-areas: "Home Home Home Home" "Menu Menu Menu Menu" "Contact Contact Contact Contact";
+  grid-template-areas: "Home" "Menu" "Contact";
   background-color:white;
   height: auto;
-  width: 80%;
+  width: 1500px;
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -36,15 +36,15 @@ html,body {
 
 .Home { 
   grid-area: Home; 
+  height: auto;
 }
 
 .Menu { 
   grid-area: Menu; 
-  height: 33%;
 }
 
 .Contact { 
   grid-area: Contact; 
   background-color: yellow;
-  height: 33%;
+  height: 100%;
 }
