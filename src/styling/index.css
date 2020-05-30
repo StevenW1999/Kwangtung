@@ -18,7 +18,7 @@ html,body {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1000px 800px 500px;
+  grid-template-rows: 1000px 800px 800px;
   gap: 100px 0px;
   grid-template-areas: "Home" "Menu" "Contact";
   background-color:white;
@@ -45,6 +45,5 @@ html,body {
 
 .Contact { 
   grid-area: Contact; 
-  background-color: yellow;
   height: 100%;
 }

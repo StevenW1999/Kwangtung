@@ -1,24 +1,47 @@
 .contact-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 0px 100px;
-    grid-template-areas: "locatie adres contact";
+    grid-template-areas: "foto adres";
     width: 100%;
     height: 100%;
   }
   
-  .locatie { 
-      grid-area: locatie; 
-      background-color: violet;
+  .foto { 
+    grid-area: foto; 
+    background-image: url("../images/kwangtung.jpg");
+    background-size: 100% 100%;
+    margin-left: 50px;
 }
   
   .adres { 
       grid-area: adres; 
-      background-color: tomato;
+      text-align: center;
 }
-  
-  .contact { 
-      grid-area: contact; 
-      background-color:silver;
+
+#contact .contact-item p {
+	font-size: 15px;
+  color: #777;
 }
+
+#contact h3 {
+	position: relative;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 400;
+	color: #aaa;
+  padding: 20px ;
+  padding-top: 50px;
+}
+#contact h3::after {
+	position: absolute;
+	content: "";
+	background: #d43031;
+	height: 2px;
+	width: 40px;
+	bottom: 0;
+	margin-left: -20px;
+	left: 50%;
+}
+
